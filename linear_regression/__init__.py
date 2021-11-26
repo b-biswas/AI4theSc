@@ -1,4 +1,3 @@
-from .lin_reg import linear_regression
+__version__ = '0.1'
 
-
-__version__ = '0.0'
+from .regression import least_squares  # noqa
